@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sorting</name>
+    </assembly>
+    <members>
+        <member name="M:Sorting.BinaryAddition.Add(System.Int32[],System.Int32[])">
+            <summary>
+            Assumption that each int within both arrays is either 0 or 1 to simulate adding two numbers stored as bits
+            </summary>
+            <param name="first"></param>
+            <param name="second"></param>
+        </member>
+        <member name="M:Sorting.BinarySearch.Search``1(``0[],``0)">
+            <summary>
+            Performs binary search on an array, calls helper function <see cref="M:Sorting.BinarySearch.Search``1(``0[],``0,System.Int32,System.Int32)"/>
+            </summary>
+            <typeparam name="T">Must implement <see cref="T:System.IComparable"/> and <see cref="T:System.IComparable`1"/></typeparam>
+            <param name="array">The array to search in</param>
+            <param name="item">The item to search for</param>
+            <returns>The index of the item searched for</returns>
+        </member>
+        <member name="M:Sorting.BinarySearch.Search``1(``0[],``0,System.Int32,System.Int32)">
+            <summary>
+            Returns the index of the item in the array between start (inclusive) and finish (exclusive).
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <param name="item"></param>
+            <param name="start">inclusive</param>
+            <param name="finish">exclusive</param>
+            <returns>The index of the item searched for</returns>
+        </member>
+        <member name="M:Sorting.MergeSort.InArraySort(System.Int32[])">
+            <summary>
+            Sorts the array using the merge sort algorithm
+            New arrays are only created in the divide steps.
+            Calls helper function <see cref="M:Sorting.MergeSort.InArraySort(System.Int32[],System.Int32,System.Int32)"/>
+            </summary>
+            <param name="ints"></param>
+        </member>
+    </members>
+</doc>
