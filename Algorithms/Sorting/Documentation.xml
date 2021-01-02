@@ -31,10 +31,17 @@
             <param name="finish">exclusive</param>
             <returns>The index of the item searched for</returns>
         </member>
+        <member name="M:Sorting.MergeSort.Sort``1(``0[])">
+            <summary>
+            Generic merge sort for an array of any type that implements IComparable{T}
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <returns></returns>
+        </member>
         <member name="M:Sorting.MergeSort.InArraySort(System.Int32[])">
             <summary>
-            Sorts the array using the merge sort algorithm
-            New arrays are only created in the divide steps.
+            Sorts an integer array using the merge sort algorithm
             Calls helper function <see cref="M:Sorting.MergeSort.InArraySort(System.Int32[],System.Int32,System.Int32)"/>
             </summary>
             <param name="ints"></param>

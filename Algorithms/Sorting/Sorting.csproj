@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <DocumentationFile>SomeDocumentationFile.xml</DocumentationFile>
+	  <DocumentationFile>Documentation.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
