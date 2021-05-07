@@ -5,7 +5,12 @@ namespace Sorting
     {
         static void Main(string[] args)
         {
-            Matrix.PrintExampleMatrix();
+            Matrix matrix = new Matrix(5, 5, 2);
+            matrix.PrintMatrix();
+            Console.WriteLine(matrix.nRows);
+            Console.WriteLine(matrix.nCols);
+
+
             int[] integers = new int[] { 13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7 };
             Console.WriteLine(MaxContiguousSubarray.DivideAndConquer(integers));
             Console.WriteLine(MaxContiguousSubarray.DynamicProgramming(integers));

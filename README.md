@@ -1,2 +1,2 @@
 # algorithms
-A place to practice my algorithms and datastructures over this break
+A place to practice some algorithms and datastructures
